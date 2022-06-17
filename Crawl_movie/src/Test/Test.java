@@ -1,6 +1,6 @@
 package Test;
 
-import java.io.BufferedReader;
+import java.io.BufferedReader; 
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -28,24 +28,24 @@ public class Test {
 		
 	}
 	
+	public void debug_movie_detail() {
+		String posterUrl = "https://www.imdb.com/title/tt0325980/mediaindex";
+		try {
+			url = new URL(posterUrl);
+			
+			Document doc = Jsoup.connect(posterUrl).get();
+			Elements posters = doc.select("div.subpage_title_block");
+			System.out.println(posters.select("img[src]").attr("src"));
+			
+		} catch (IOException e) { 
+			e.printStackTrace();
+		}
+	}
+	
 	public void movie_extracty() {
 		int responseCode = 0;
 		try {
 		 	url = new URL(stringUrl);
-		 	connection = (HttpURLConnection) url.openConnection();
-		 	responseCode = connection.getResponseCode();
-		
-//		System.out.println("\nSending 'GET' request to URL; " + stringUrl);
-//		System.out.println("Response Code: " + responseCode);
-
-			BufferedReader in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
-			
-			String inputLine;
-			StringBuffer response = new StringBuffer();
-			while((inputLine = in.readLine()) != null) {
-				response.append(inputLine);
-			}
-			in.close();
 	
 			Document doc = Jsoup.connect(stringUrl).get();
 			String tile = doc.title();
