@@ -7,8 +7,9 @@ public class Main {
 	public static void main(String[] args) {
 
 		CrawlCelebs crawlCelebs = new CrawlCelebs();
-		crawlCelebs.celebs_extract();
-//		crawlCelebs.celeb_detail();
+//		crawlCelebs.crawl(5);
+		
+		crawlCelebs.celeb_detail();
 
 		System.out.println("done!");
 	}

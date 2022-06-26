@@ -10,7 +10,6 @@ import java.net.URL;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
-import org.json.simple.JSONValue;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -18,16 +17,29 @@ import org.jsoup.select.Elements;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
 
 public class CrawlCelebs {
 	
 	final String BASE_URL = "https://www.imdb.com";
-	final String CELEB_LIST = "https://www.imdb.com/search/name/?match_all=true";
+	final String CELEB_LIST = "https://www.imdb.com/search/name/?match_all=true&start=";
 	final String FILE_SAVED = "res//crawl_celebs.json";
 	final String SAVE_DIR = "res//celeb_data";
 	final String IMAGE_PATH = "/mediaindex?ref_=nm_phs_md_sm";
+	
+	final int NUMBER = 50;
+	Gson gs = new GsonBuilder().setPrettyPrinting().create();
 	public CrawlCelebs() {
 		
+	}
+	
+	public void crawl(int pageNumber) {
+		for(int i = 0; i < pageNumber; i++) {
+			celebs_extract(i * NUMBER + 1);
+		}
 	}
 	
 	void make_dir(String directory) {
@@ -37,16 +49,16 @@ public class CrawlCelebs {
 		}
 	}
 	
-	public void celebs_extract() {
+	public void celebs_extract(int start) {
 		//1. make directory
 		make_dir(SAVE_DIR);
 		
 		// create array to store json data
-		JSONArray data = new JSONArray();
+		JsonArray data = new JsonArray();
 		
 		try {
 			//1. connect url
-			URL url = new URL(CELEB_LIST);
+			URL url = new URL(CELEB_LIST + start);
 			Document doc = Jsoup.connect(url.toString()).get();
 			
 //			System.out.println(doc);
@@ -59,12 +71,12 @@ public class CrawlCelebs {
 				String celeb_url = BASE_URL + "/name/" + celeb_id;
 				String celeb_poster = parsePoster(celeb.select("img[src]").attr("src"));
 				// create json object to store celeb's information
-				JSONObject json_celeb = new JSONObject();
-				json_celeb.put("name", celeb_name);
-				json_celeb.put("url", celeb_url);
-				json_celeb.put("id", celeb_id);
-				json_celeb.put("dir", celeb_dir);
-				json_celeb.put("poster", celeb_poster);
+				JsonObject json_celeb = new JsonObject();
+				json_celeb.addProperty("name", celeb_name);
+				json_celeb.addProperty("url", celeb_url);
+				json_celeb.addProperty("id", celeb_id);
+				json_celeb.addProperty("dir", celeb_dir);
+				json_celeb.addProperty("poster", celeb_poster);
 				
 //				System.out.println(parsePoster(celeb_poster));
 				
@@ -82,14 +94,12 @@ public class CrawlCelebs {
 		}
 	}
 	
-	public void writeFile(String dir, JSONArray data) {
-		ObjectMapper mapper = new ObjectMapper();
+	public void writeFile(String dir, JsonArray data) {
 		String jsonString = "";
 		
 		try {
 			FileWriter file = new FileWriter(dir);
-			jsonString = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(data);
-			
+			jsonString = gs.toJson(data);
 			file.write(jsonString);
 			file.close();
 			System.out.println("successful !");
@@ -102,14 +112,12 @@ public class CrawlCelebs {
 //		System.out.println(jsonString);
 	}
 	
-	public void writeFile(String dir, JSONObject data) {
-		ObjectMapper mapper = new ObjectMapper();
+	public void writeFile(String dir, JsonObject data) {
 		String jsonString = "";
 		
 		try {
 			FileWriter file = new FileWriter(dir);
-			jsonString = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(data);
-			
+			jsonString = gs.toJson(data);
 			file.write(jsonString);
 			file.close();
 			System.out.println("successful !");
@@ -136,20 +144,20 @@ public class CrawlCelebs {
 			int index = path.indexOf(".");
 			
 			newUrlPoster = "https://" + host + "/" + path.substring(0,index) + ".jpg"; 
+			return newUrlPoster;
 		} catch (MalformedURLException e) {
 			e.printStackTrace();
+			
+			return "Unknown";
 		}
-		
-		return newUrlPoster;
 	}
 	
-	JSONArray readFile(String dir) {
-		JSONArray array = null;
+	JsonArray readFile(String dir) {
+		JsonArray array = null;
 		try {
 			FileReader file = new FileReader(dir);
 			// convert to json object
-			Object obj = JSONValue.parse(file);
-			array = (JSONArray) obj;
+			array = gs.fromJson(file, JsonArray.class);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
@@ -157,46 +165,30 @@ public class CrawlCelebs {
 	}
 	
 	public void celeb_detail() {
-		JSONArray data = null;
+		JsonArray data = null;
 		data = readFile(FILE_SAVED);
 		
-		//debug
-		//print data to console
-//		ObjectMapper mp = new ObjectMapper();
-//		try {
-//			System.out.println(mp.writerWithDefaultPrettyPrinter().writeValueAsString(data));
-//		} catch (JsonProcessingException e) {
-//			e.printStackTrace();
-//		}
-		
 		for(Object obj : data) {
-			JSONObject jsonCeleb = (JSONObject) obj;
+			JsonObject jsonCeleb = (JsonObject) obj;
 			 
-			JSONObject newJsonCeleb = new JSONObject();
+			JsonObject newJsonCeleb = new JsonObject();
 			// celeb info
-			String celeb_url = jsonCeleb.get("url").toString();			
-			JSONObject info = crawl_celeb_detail(celeb_url);
+			String celeb_url = jsonCeleb.get("url").getAsString();			
+			JsonObject info = crawl_celeb_detail(celeb_url);
 			//celeb photo
-			String celeb_photo_url = jsonCeleb.get("url") + IMAGE_PATH;
-			JSONObject photo = crawl_celeb_image(celeb_photo_url);
+			String celeb_photo_url = jsonCeleb.get("url").getAsString() + IMAGE_PATH;
+			JsonObject photo = crawl_celeb_image(celeb_photo_url);
 			
-			newJsonCeleb.put("info", info);
-			newJsonCeleb.put("photo", photo);
+			newJsonCeleb.add("info", info);
+			newJsonCeleb.add("photo", photo);
 			
-			String dir_celeb = jsonCeleb.get("dir").toString();
+			String dir_celeb = jsonCeleb.get("dir").getAsString();
 			
 			//make dir 
 			make_dir(dir_celeb);
 			
 			//file json
-			String name_file = dir_celeb + "/" + jsonCeleb.get("id").toString() + ".json";
-//			System.out.println(name_file);
-
-			//delete file
-//			File f = new File(dir_celeb + "/" + jsonCeleb.get("id").toString());
-//			if(f.exists()) {
-//				f.delete();
-//			}
+			String name_file = dir_celeb + "/" + jsonCeleb.get("id").getAsString() + ".json";
 			
 			//write movie detail
 			writeFile(name_file, newJsonCeleb);
@@ -212,13 +204,13 @@ public class CrawlCelebs {
 		return str;
 	}
 	
-	JSONObject crawl_celeb_detail(String celeb_url){
-		JSONObject celeb = new JSONObject();
+	JsonObject crawl_celeb_detail(String celeb_url){
+		JsonObject celeb = new JsonObject();
 		try {
 			Document doc = Jsoup.connect(celeb_url).get();
 			Elements jobs = doc.select("div.infobar").select("a[href]");
 			//1.job
-			JSONArray celeb_job = new JSONArray();
+			JsonArray celeb_job = new JsonArray();
 			for(Element job : jobs) {
 				celeb_job.add(job.attr("href").toString().substring(1));
 			}
@@ -227,9 +219,9 @@ public class CrawlCelebs {
 			//3.date
 			String celeb_date = isNull(doc.select("div[id]").select("time[datetime]").attr("datetime").toString());
 						
-			celeb.put("jobs", celeb_job);
-			celeb.put("avatar", celeb_avatar);
-			celeb.put("date", celeb_date);
+			celeb.add("jobs", celeb_job);
+			celeb.addProperty("avatar", celeb_avatar);
+			celeb.addProperty("date", celeb_date);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -262,16 +254,18 @@ public class CrawlCelebs {
 	 * crawl celeb's image
 	 * 
 	 */
-	JSONObject crawl_celeb_image(String path) {
-		JSONObject images = new JSONObject();
-		ObjectMapper mp = new ObjectMapper();
+	JsonObject crawl_celeb_image(String path) {
+		JsonObject images = new JsonObject();
+		int index = 0;
+		
 		try {
 			Document doc = Jsoup.connect(path).get();
 			
 			Elements image_list = doc.select("div.media_index_thumb_list").select("a[href]");
 			for(Element image : image_list) {
 				String celeb_image = parsePoster(image.select("img[src]").attr("src").toString());
-				images.put("image", celeb_image);
+				index ++;        
+				images.addProperty("image " + index, celeb_image);
 			}
 			
 		} catch (IOException e) {
@@ -283,8 +277,7 @@ public class CrawlCelebs {
 	//debug
 	public void debug_crawl_celeb_image() {
 		String path = "https://www.imdb.com/name/nm0000115/mediaindex?ref_=nm_phs_md_sm";
-		JSONObject images = new JSONObject();
-		ObjectMapper mp = new ObjectMapper();
+		JsonObject images = new JsonObject();
 		int index = 0;
 		try {
 			Document doc = Jsoup.connect(path).get();
@@ -293,10 +286,10 @@ public class CrawlCelebs {
 			for(Element image : image_list) {
 				String celeb_image = image.select("img[src]").attr("src").toString();
 				index = index + 1;
-				images.put(index,celeb_image);
+				images.addProperty("" + index,celeb_image);
 			}
 			
-			String jsonString = mp.writerWithDefaultPrettyPrinter().writeValueAsString(images);
+			String jsonString = gs.toJson(images);
 			System.out.println(jsonString);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
