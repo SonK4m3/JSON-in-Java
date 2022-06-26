@@ -11,5 +11,6 @@
 	<classpathentry kind="lib" path="D:/Java/Crawl_movie/lib/jsoup-1.15.1.jar"/>
 	<classpathentry kind="lib" path="D:/Java/Crawl_movie/lib/jackson-core-2.9.4.jar"/>
 	<classpathentry kind="lib" path="D:/Java/Crawl_movie/lib/jackson-annotations-2.9.6.jar"/>
+	<classpathentry kind="lib" path="D:/Java/Crawl_Quote/lib/gson-2.8.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

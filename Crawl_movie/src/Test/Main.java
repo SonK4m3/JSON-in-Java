@@ -11,7 +11,7 @@ public class Main {
 //		test.movie_extracty();
 		
 		CrawlMovie crawlMovie = new CrawlMovie();
-//		crawlMovie.extractMovie(0);
+//		crawlMovie.extractMovie(1);
 	
 		MovieDetail movieDetail = new MovieDetail();
 		movieDetail.movieDetail();

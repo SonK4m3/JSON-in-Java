@@ -1,201 +1,302 @@
-[ {
-  "name" : "Phi Công Siêu Đẳng Maverick",
-  "id" : "tt1745960",
-  "url" : "https://www.imdb.com/title/tt1745960/"
-}, {
-  "name" : "Thế Giới Khủng Long: Lãnh Địa",
-  "id" : "tt8041270",
-  "url" : "https://www.imdb.com/title/tt8041270/"
-}, {
-  "name" : "Phi Công Siêu Đẳng",
-  "id" : "tt0092099",
-  "url" : "https://www.imdb.com/title/tt0092099/"
-}, {
-  "name" : "Hustle: Cuộc Đua NBA",
-  "id" : "tt8009428",
-  "url" : "https://www.imdb.com/title/tt8009428/"
-}, {
-  "name" : "Interceptor",
-  "id" : "tt14174940",
-  "url" : "https://www.imdb.com/title/tt14174940/"
-}, {
-  "name" : "Cuộc Chiến Đa Vũ Trụ",
-  "id" : "tt6710474",
-  "url" : "https://www.imdb.com/title/tt6710474/"
-}, {
-  "name" : "Sinh Vật Huyền Bí: Những Bí Mật Của Dumbledore",
-  "id" : "tt4123432",
-  "url" : "https://www.imdb.com/title/tt4123432/"
-}, {
-  "name" : "Black Adam",
-  "id" : "tt6443346",
-  "url" : "https://www.imdb.com/title/tt6443346/"
-}, {
-  "name" : "Chiến Binh Phương Bắc",
-  "id" : "tt11138512",
-  "url" : "https://www.imdb.com/title/tt11138512/"
-}, {
-  "name" : "Gánh Nặng Ngàn Cân Của Tài Năng Kiệt Xuất",
-  "id" : "tt11291274",
-  "url" : "https://www.imdb.com/title/tt11291274/"
-}, {
-  "name" : "Sát Thủ Đối Đầu",
-  "id" : "tt12593682",
-  "url" : "https://www.imdb.com/title/tt12593682/"
-}, {
-  "name" : "Phù Thủy Tối Thượng Trong Đa Vũ Trụ Hỗn Loạn",
-  "id" : "tt9419884",
-  "url" : "https://www.imdb.com/title/tt9419884/"
-}, {
-  "name" : "Elvis",
-  "id" : "tt3704428",
-  "url" : "https://www.imdb.com/title/tt3704428/"
-}, {
-  "name" : "Thor: Tình Yêu Và Sấm Sét",
-  "id" : "tt10648342",
-  "url" : "https://www.imdb.com/title/tt10648342/"
-}, {
-  "name" : "Crimes of the Future",
-  "id" : "tt14549466",
-  "url" : "https://www.imdb.com/title/tt14549466/"
-}, {
-  "name" : "Batman: Vạch Trần Sự Thật",
-  "id" : "tt1877830",
-  "url" : "https://www.imdb.com/title/tt1877830/"
-}, {
-  "name" : "Morbius",
-  "id" : "tt5108870",
-  "url" : "https://www.imdb.com/title/tt5108870/"
-}, {
-  "name" : "Last Seen Alive",
-  "id" : "tt15004136",
-  "url" : "https://www.imdb.com/title/tt15004136/"
-}, {
-  "name" : "Công Viên Kỷ Jura",
-  "id" : "tt0107290",
-  "url" : "https://www.imdb.com/title/tt0107290/"
-}, {
-  "name" : "Fire Island",
-  "id" : "tt15218000",
-  "url" : "https://www.imdb.com/title/tt15218000/"
-}, {
-  "name" : "Prey",
-  "id" : "tt11866324",
-  "url" : "https://www.imdb.com/title/tt11866324/"
-}, {
-  "name" : "X",
-  "id" : "tt13560574",
-  "url" : "https://www.imdb.com/title/tt13560574/"
-}, {
-  "name" : "Thành Phố Mất Tích",
-  "id" : "tt13320622",
-  "url" : "https://www.imdb.com/title/tt13320622/"
-}, {
-  "name" : "Chip 'n Dale: Rescue Rangers",
-  "id" : "tt3513500",
-  "url" : "https://www.imdb.com/title/tt3513500/"
-}, {
-  "name" : "Không",
-  "id" : "tt10954984",
-  "url" : "https://www.imdb.com/title/tt10954984/"
-}, {
-  "name" : "Thế Giới Khủng Long: Vương Quốc Sụp Đổ",
-  "id" : "tt4881806",
-  "url" : "https://www.imdb.com/title/tt4881806/"
-}, {
-  "name" : "Thế Giới Khủng Long",
-  "id" : "tt0369610",
-  "url" : "https://www.imdb.com/title/tt0369610/"
-}, {
-  "name" : "Bố Già",
-  "id" : "tt0068646",
-  "url" : "https://www.imdb.com/title/tt0068646/"
-}, {
-  "name" : "Men",
-  "id" : "tt13841850",
-  "url" : "https://www.imdb.com/title/tt13841850/"
-}, {
-  "name" : "Cậu Bé Người Gỗ",
-  "id" : "tt4593060",
-  "url" : "https://www.imdb.com/title/tt4593060/"
-}, {
-  "name" : "The Munsters",
-  "id" : "tt14813212",
-  "url" : "https://www.imdb.com/title/tt14813212/"
-}, {
-  "name" : "Lightyear - Cảnh Sát Vũ Trụ",
-  "id" : "tt10298810",
-  "url" : "https://www.imdb.com/title/tt10298810/"
-}, {
-  "name" : "The Lady of Heaven",
-  "id" : "tt13097336",
-  "url" : "https://www.imdb.com/title/tt13097336/"
-}, {
-  "name" : "Điện Thoại Đen",
-  "id" : "tt7144666",
-  "url" : "https://www.imdb.com/title/tt7144666/"
-}, {
-  "name" : "Tu Viện Downton: Kỷ Nguyên Mới",
-  "id" : "tt11703710",
-  "url" : "https://www.imdb.com/title/tt11703710/"
-}, {
-  "name" : "Nhím Sonic 2",
-  "id" : "tt12412888",
-  "url" : "https://www.imdb.com/title/tt12412888/"
-}, {
-  "name" : "Trở Lại Năm Tốt Nghiệp",
-  "id" : "tt5315212",
-  "url" : "https://www.imdb.com/title/tt5315212/"
-}, {
-  "name" : "Người Nhện: Không Còn Nhà",
-  "id" : "tt10872600",
-  "url" : "https://www.imdb.com/title/tt10872600/"
-}, {
-  "name" : "RRR (Rise Roar Revolt)",
-  "id" : "tt8178634",
-  "url" : "https://www.imdb.com/title/tt8178634/"
-}, {
-  "name" : "Winnie-The-Pooh: Blood and Honey",
-  "id" : "tt19623240",
-  "url" : "https://www.imdb.com/title/tt19623240/"
-}, {
-  "name" : "Thợ Săn Cổ Vật",
-  "id" : "tt1464335",
-  "url" : "https://www.imdb.com/title/tt1464335/"
-}, {
-  "name" : "Án Mạng Trên Sông Nile",
-  "id" : "tt7657566",
-  "url" : "https://www.imdb.com/title/tt7657566/"
-}, {
-  "name" : "Sinh Vật Huyền Bí: Tội Ác Của Grindelwald",
-  "id" : "tt4123430",
-  "url" : "https://www.imdb.com/title/tt4123430/"
-}, {
-  "name" : "Biệt Đội Săn Ma: Chuyển Kiếp",
-  "id" : "tt4513678",
-  "url" : "https://www.imdb.com/title/tt4513678/"
-}, {
-  "name" : "Không Phải Lúc Chết",
-  "id" : "tt2382320",
-  "url" : "https://www.imdb.com/title/tt2382320/"
-}, {
-  "name" : "Father Stu",
-  "id" : "tt14439896",
-  "url" : "https://www.imdb.com/title/tt14439896/"
-}, {
-  "name" : "Những Kẻ Xấu Xa",
-  "id" : "tt8115900",
-  "url" : "https://www.imdb.com/title/tt8115900/"
-}, {
-  "name" : "Xe Cấp Cứu",
-  "id" : "tt4998632",
-  "url" : "https://www.imdb.com/title/tt4998632/"
-}, {
-  "name" : "Già",
-  "id" : "tt10954652",
-  "url" : "https://www.imdb.com/title/tt10954652/"
-}, {
-  "name" : "Cướp Biển Vùng Caribê: Lời Nguyền Của Tàu Ngọc Trai Đen",
-  "id" : "tt0325980",
-  "url" : "https://www.imdb.com/title/tt0325980/"
-} ]
+[
+  {
+    "rank": "1",
+    "name": "Phi Công Siêu Đẳng Maverick",
+    "id": "tt1745960",
+    "url": "https://www.imdb.com/title/tt1745960/"
+  },
+  {
+    "rank": "2",
+    "name": "Thế Giới Khủng Long: Lãnh Địa",
+    "id": "tt8041270",
+    "url": "https://www.imdb.com/title/tt8041270/"
+  },
+  {
+    "rank": "3",
+    "name": "Hustle: Cuộc Đua NBA",
+    "id": "tt8009428",
+    "url": "https://www.imdb.com/title/tt8009428/"
+  },
+  {
+    "rank": "4",
+    "name": "Phi Công Siêu Đẳng",
+    "id": "tt0092099",
+    "url": "https://www.imdb.com/title/tt0092099/"
+  },
+  {
+    "rank": "5",
+    "name": "Lightyear - Cảnh Sát Vũ Trụ",
+    "id": "tt10298810",
+    "url": "https://www.imdb.com/title/tt10298810/"
+  },
+  {
+    "rank": "6",
+    "name": "Spiderhead",
+    "id": "tt9783600",
+    "url": "https://www.imdb.com/title/tt9783600/"
+  },
+  {
+    "rank": "7",
+    "name": "Cuộc Chiến Đa Vũ Trụ",
+    "id": "tt6710474",
+    "url": "https://www.imdb.com/title/tt6710474/"
+  },
+  {
+    "rank": "8",
+    "name": "Blonde",
+    "id": "tt1655389",
+    "url": "https://www.imdb.com/title/tt1655389/"
+  },
+  {
+    "rank": "9",
+    "name": "Elvis",
+    "id": "tt3704428",
+    "url": "https://www.imdb.com/title/tt3704428/"
+  },
+  {
+    "rank": "10",
+    "name": "Interceptor",
+    "id": "tt14174940",
+    "url": "https://www.imdb.com/title/tt14174940/"
+  },
+  {
+    "rank": "11",
+    "name": "Persuasion",
+    "id": "tt13456318",
+    "url": "https://www.imdb.com/title/tt13456318/"
+  },
+  {
+    "rank": "12",
+    "name": "Barbie",
+    "id": "tt1517268",
+    "url": "https://www.imdb.com/title/tt1517268/"
+  },
+  {
+    "rank": "13",
+    "name": "Black Adam",
+    "id": "tt6443346",
+    "url": "https://www.imdb.com/title/tt6443346/"
+  },
+  {
+    "rank": "14",
+    "name": "Chiến Binh Phương Bắc",
+    "id": "tt11138512",
+    "url": "https://www.imdb.com/title/tt11138512/"
+  },
+  {
+    "rank": "15",
+    "name": "Thor: Tình Yêu Và Sấm Sét",
+    "id": "tt10648342",
+    "url": "https://www.imdb.com/title/tt10648342/"
+  },
+  {
+    "rank": "16",
+    "name": "Sinh Vật Huyền Bí: Những Bí Mật Của Dumbledore",
+    "id": "tt4123432",
+    "url": "https://www.imdb.com/title/tt4123432/"
+  },
+  {
+    "rank": "17",
+    "name": "Gánh Nặng Ngàn Cân Của Tài Năng Kiệt Xuất",
+    "id": "tt11291274",
+    "url": "https://www.imdb.com/title/tt11291274/"
+  },
+  {
+    "rank": "18",
+    "name": "Công Viên Kỷ Jura",
+    "id": "tt0107290",
+    "url": "https://www.imdb.com/title/tt0107290/"
+  },
+  {
+    "rank": "19",
+    "name": "Phù Thủy Tối Thượng Trong Đa Vũ Trụ Hỗn Loạn",
+    "id": "tt9419884",
+    "url": "https://www.imdb.com/title/tt9419884/"
+  },
+  {
+    "rank": "20",
+    "name": "Không Phải Lúc Chết",
+    "id": "tt2382320",
+    "url": "https://www.imdb.com/title/tt2382320/"
+  },
+  {
+    "rank": "21",
+    "name": "Batman: Vạch Trần Sự Thật",
+    "id": "tt1877830",
+    "url": "https://www.imdb.com/title/tt1877830/"
+  },
+  {
+    "rank": "22",
+    "name": "Father of the Bride",
+    "id": "tt13249596",
+    "url": "https://www.imdb.com/title/tt13249596/"
+  },
+  {
+    "rank": "23",
+    "name": "Điện Thoại Đen",
+    "id": "tt7144666",
+    "url": "https://www.imdb.com/title/tt7144666/"
+  },
+  {
+    "rank": "24",
+    "name": "Sát Thủ Đối Đầu",
+    "id": "tt12593682",
+    "url": "https://www.imdb.com/title/tt12593682/"
+  },
+  {
+    "rank": "25",
+    "name": "Bố Già",
+    "id": "tt0068646",
+    "url": "https://www.imdb.com/title/tt0068646/"
+  },
+  {
+    "rank": "26",
+    "name": "Không",
+    "id": "tt10954984",
+    "url": "https://www.imdb.com/title/tt10954984/"
+  },
+  {
+    "rank": "27",
+    "name": "Thế Giới Khủng Long",
+    "id": "tt0369610",
+    "url": "https://www.imdb.com/title/tt0369610/"
+  },
+  {
+    "rank": "28",
+    "name": "X",
+    "id": "tt13560574",
+    "url": "https://www.imdb.com/title/tt13560574/"
+  },
+  {
+    "rank": "29",
+    "name": "Thế Giới Khủng Long: Vương Quốc Sụp Đổ",
+    "id": "tt4881806",
+    "url": "https://www.imdb.com/title/tt4881806/"
+  },
+  {
+    "rank": "30",
+    "name": "Good Luck to You, Leo Grande",
+    "id": "tt13352968",
+    "url": "https://www.imdb.com/title/tt13352968/"
+  },
+  {
+    "rank": "31",
+    "name": "Morbius",
+    "id": "tt5108870",
+    "url": "https://www.imdb.com/title/tt5108870/"
+  },
+  {
+    "rank": "32",
+    "name": "Thành Phố Mất Tích",
+    "id": "tt13320622",
+    "url": "https://www.imdb.com/title/tt13320622/"
+  },
+  {
+    "rank": "33",
+    "name": "Nhật Kí Cậu Bé Nhút Nhát",
+    "id": "tt1196141",
+    "url": "https://www.imdb.com/title/tt1196141/"
+  },
+  {
+    "rank": "34",
+    "name": "Tu Viện Downton: Kỷ Nguyên Mới",
+    "id": "tt11703710",
+    "url": "https://www.imdb.com/title/tt11703710/"
+  },
+  {
+    "rank": "35",
+    "name": "Máy Đếm Thẻ",
+    "id": "tt11196036",
+    "url": "https://www.imdb.com/title/tt11196036/"
+  },
+  {
+    "rank": "36",
+    "name": "Crimes of the Future",
+    "id": "tt14549466",
+    "url": "https://www.imdb.com/title/tt14549466/"
+  },
+  {
+    "rank": "37",
+    "name": "Người Nhện: Không Còn Nhà",
+    "id": "tt10872600",
+    "url": "https://www.imdb.com/title/tt10872600/"
+  },
+  {
+    "rank": "38",
+    "name": "Last Seen Alive",
+    "id": "tt15004136",
+    "url": "https://www.imdb.com/title/tt15004136/"
+  },
+  {
+    "rank": "39",
+    "name": "Nhím Sonic 2",
+    "id": "tt12412888",
+    "url": "https://www.imdb.com/title/tt12412888/"
+  },
+  {
+    "rank": "40",
+    "name": "Chip \u0027n Dale: Rescue Rangers",
+    "id": "tt3513500",
+    "url": "https://www.imdb.com/title/tt3513500/"
+  },
+  {
+    "rank": "41",
+    "name": "Thợ Săn Cổ Vật",
+    "id": "tt1464335",
+    "url": "https://www.imdb.com/title/tt1464335/"
+  },
+  {
+    "rank": "42",
+    "name": "Pleasure",
+    "id": "tt8550054",
+    "url": "https://www.imdb.com/title/tt8550054/"
+  },
+  {
+    "rank": "43",
+    "name": "Án Mạng Trên Sông Nile",
+    "id": "tt7657566",
+    "url": "https://www.imdb.com/title/tt7657566/"
+  },
+  {
+    "rank": "44",
+    "name": "Jerry \u0026 Marge Go Large",
+    "id": "tt8323668",
+    "url": "https://www.imdb.com/title/tt8323668/"
+  },
+  {
+    "rank": "45",
+    "name": "Fire Island",
+    "id": "tt15218000",
+    "url": "https://www.imdb.com/title/tt15218000/"
+  },
+  {
+    "rank": "46",
+    "name": "RRR (Rise Roar Revolt)",
+    "id": "tt8178634",
+    "url": "https://www.imdb.com/title/tt8178634/"
+  },
+  {
+    "rank": "47",
+    "name": "Prey",
+    "id": "tt11866324",
+    "url": "https://www.imdb.com/title/tt11866324/"
+  },
+  {
+    "rank": "48",
+    "name": "Biệt Đội Săn Ma: Chuyển Kiếp",
+    "id": "tt4513678",
+    "url": "https://www.imdb.com/title/tt4513678/"
+  },
+  {
+    "rank": "49",
+    "name": "Cha Cha Real Smooth",
+    "id": "tt14376344",
+    "url": "https://www.imdb.com/title/tt14376344/"
+  },
+  {
+    "rank": "50",
+    "name": "365 Ngày",
+    "id": "tt10886166",
+    "url": "https://www.imdb.com/title/tt10886166/"
+  }
+]
