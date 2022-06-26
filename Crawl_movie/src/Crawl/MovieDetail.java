@@ -73,21 +73,24 @@ public class MovieDetail {
 		writeJson(SAVE_FILE, data);
 	}
 	
-	String parsePoster(String posterUrl) throws MalformedURLException {
+	String parsePoster(String posterUrl) {
 		String bigPosterUrl = "";
-		URL posUrl = null;
-		posUrl = new URL(posterUrl);
+		URL posUrl;
+		try {
+			posUrl = new URL(posterUrl);
+			String host = posUrl.getHost();
+			if (host != null) {
+				int atSign = host.indexOf('@');
+				if (atSign != -1)
+					host = host.substring(atSign + 1);
+			}
+			String path = posUrl.getPath().substring(0, posUrl.getPath().indexOf("."));
+			bigPosterUrl = "https://" + posUrl.getHost() + path + ".png";
 			
-		String host = posUrl.getHost();
-		if (host != null) {
-			int atSign = host.indexOf('@');
-			if (atSign != -1)
-				host = host.substring(atSign + 1);
+			return bigPosterUrl;
+		} catch (MalformedURLException e) {
+			return "Unknown";
 		}
-		String path = posUrl.getPath().substring(0, posUrl.getPath().indexOf("."));
-		bigPosterUrl = "https://" + posUrl.getHost() + path + ".png";
-		
-		return bigPosterUrl;
 	}
 	
 	void writeJson(String fileName, JsonArray array) {
@@ -96,7 +99,7 @@ public class MovieDetail {
 			FileWriter file = new FileWriter(fileName);
 			// convert json object to string 
 			String stringJson = gs.toJson(array);
-			file.write(stringJson);
+			file.write(stringJson);  
 			
 			//debug
 //			System.out.println(stringJson);

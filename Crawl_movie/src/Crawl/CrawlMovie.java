@@ -25,24 +25,29 @@ public class CrawlMovie {
 	final String SAVE_DIR = "./movie_data";
 	final String SAVE_FILE = "res//movies.json";			
 	
-	
-	URL url;
+	final int NUMBER = 50;
+	//create array to store object
+	JsonArray data = new JsonArray();
 	
 	public CrawlMovie() {
 		 
 	}
 	
+	public void crawl(int pageNumber) {
+		for(int i = 0; i < pageNumber; i++) {
+			extractMovie(i * NUMBER + 1);
+		}
+	}
+	
 	public void extractMovie(int start){
 		//make link with number of movie started
 		String movie_list = MOVIE_LIST + start;
-		//create array to store object
-		JsonArray data = new JsonArray();
 		
 		int rank = start;
 		
 		try {
 			//1. connect url 
-			url = new URL(movie_list);
+			URL url = new URL(movie_list);
 			
 			//2. jsoup to get html 
 			Document doc = Jsoup.connect(url.toString()).get();

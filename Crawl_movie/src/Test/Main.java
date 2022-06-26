@@ -11,11 +11,11 @@ public class Main {
 //		test.movie_extracty();
 		
 		CrawlMovie crawlMovie = new CrawlMovie();
-//		crawlMovie.extractMovie(1);
+//		crawlMovie.crawl(5);
 	
 		MovieDetail movieDetail = new MovieDetail();
 		movieDetail.movieDetail();
 		
 	}
-
+	
 }
