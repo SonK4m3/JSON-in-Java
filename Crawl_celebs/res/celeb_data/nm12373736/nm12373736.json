@@ -1,16 +1,18 @@
 {
-  "2.photo" : {
-    "image 6" : "https://m.media-amazon.com//images/M/MV5BYjc1YjNhMzQtNTlmZS00YTFjLWFhYjMtZjYzNzJkZjkyMGU3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@.jpg",
-    "image 5" : "https://m.media-amazon.com//images/M/MV5BNTExZWM3ZDgtYWJhMC00YmI1LWE3MTctNzYzOWFjMzdlN2JjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@.jpg",
-    "image 7" : "https://m.media-amazon.com//images/M/MV5BMzg3ZGM4ZmItZmMzZi00ZDk3LWJiYjItNTgzMzAzN2EwNmMwXkEyXkFqcGdeQXVyNjUxMjc1OTM@.jpg",
-    "image 2" : "https://m.media-amazon.com//images/M/MV5BN2YzMmNhYWYtY2ZhYS00ODE5LTg2NTYtZmYzYWEwOGYxMmMwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@.jpg",
-    "image 1" : "https://m.media-amazon.com//images/M/MV5BMmZiYWQxMWMtNTgyYS00ZDY4LWFhMDctZTFiOTBkZGEzMTZlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@.jpg",
-    "image 4" : "https://m.media-amazon.com//images/M/MV5BMGQwOWE5MmMtMjdmYS00NTUyLWE3YzEtOTU2YjdkOTU1ZWVmXkEyXkFqcGdeQXVyMTEyMjM2NDc2.jpg",
-    "image 3" : "https://m.media-amazon.com//images/M/MV5BYmVhYzI4NjUtZWNlNC00NmQ1LTg3N2YtNjVhOTk3ZGE5N2QzXkEyXkFqcGdeQXVyMTkxNjUyNQ@@.jpg"
+  "info": {
+    "jobs": [
+      "actor"
+    ],
+    "avatar": "https://m.media-amazon.com//images/M/MV5BMzg3ZGM4ZmItZmMzZi00ZDk3LWJiYjItNTgzMzAzN2EwNmMwXkEyXkFqcGdeQXVyNjUxMjc1OTM@.jpg",
+    "date": "1995-9-28"
   },
-  "1.info" : {
-    "date" : "1995-9-28",
-    "jobs" : [ "actor" ],
-    "avatar" : "https://m.media-amazon.com//images/M/MV5BMzg3ZGM4ZmItZmMzZi00ZDk3LWJiYjItNTgzMzAzN2EwNmMwXkEyXkFqcGdeQXVyNjUxMjc1OTM@.jpg"
+  "photo": {
+    "image 1": "https://m.media-amazon.com//images/M/MV5BMmZiYWQxMWMtNTgyYS00ZDY4LWFhMDctZTFiOTBkZGEzMTZlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@.jpg",
+    "image 2": "https://m.media-amazon.com//images/M/MV5BN2YzMmNhYWYtY2ZhYS00ODE5LTg2NTYtZmYzYWEwOGYxMmMwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@.jpg",
+    "image 3": "https://m.media-amazon.com//images/M/MV5BYmVhYzI4NjUtZWNlNC00NmQ1LTg3N2YtNjVhOTk3ZGE5N2QzXkEyXkFqcGdeQXVyMTkxNjUyNQ@@.jpg",
+    "image 4": "https://m.media-amazon.com//images/M/MV5BMGQwOWE5MmMtMjdmYS00NTUyLWE3YzEtOTU2YjdkOTU1ZWVmXkEyXkFqcGdeQXVyMTEyMjM2NDc2.jpg",
+    "image 5": "https://m.media-amazon.com//images/M/MV5BNTExZWM3ZDgtYWJhMC00YmI1LWE3MTctNzYzOWFjMzdlN2JjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@.jpg",
+    "image 6": "https://m.media-amazon.com//images/M/MV5BYjc1YjNhMzQtNTlmZS00YTFjLWFhYjMtZjYzNzJkZjkyMGU3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@.jpg",
+    "image 7": "https://m.media-amazon.com//images/M/MV5BMzg3ZGM4ZmItZmMzZi00ZDk3LWJiYjItNTgzMzAzN2EwNmMwXkEyXkFqcGdeQXVyNjUxMjc1OTM@.jpg"
   }
 }

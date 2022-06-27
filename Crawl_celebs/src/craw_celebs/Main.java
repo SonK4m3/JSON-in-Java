@@ -10,7 +10,7 @@ public class Main {
 //		crawlCelebs.crawl(5);
 		
 		crawlCelebs.celeb_detail();
-
+ 
 		System.out.println("done!");
 	}
 

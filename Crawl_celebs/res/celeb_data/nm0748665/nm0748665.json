@@ -1,0 +1,16 @@
+{
+  "info": {
+    "jobs": [
+      "writer",
+      "producer",
+      "miscellaneous"
+    ],
+    "avatar": "https://m.media-amazon.com//images/M/MV5BMTkwNzY5NjQwMF5BMl5BanBnXkFtZTgwNTUzNzMwMzI@.jpg",
+    "date": "1930-3-28"
+  },
+  "photo": {
+    "image 1": "https://m.media-amazon.com//images/M/MV5BMjIxMjU2Nzc5NF5BMl5BanBnXkFtZTgwMjAxNTQyMTI@.jpg",
+    "image 2": "https://m.media-amazon.com//images/M/MV5BMTM1NjMyODExOF5BMl5BanBnXkFtZTYwNjE2NDg0.jpg",
+    "image 3": "https://m.media-amazon.com//images/M/MV5BMTkwNzY5NjQwMF5BMl5BanBnXkFtZTgwNTUzNzMwMzI@.jpg"
+  }
+}

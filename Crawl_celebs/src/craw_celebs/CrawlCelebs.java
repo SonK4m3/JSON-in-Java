@@ -31,6 +31,10 @@ public class CrawlCelebs {
 	final String IMAGE_PATH = "/mediaindex?ref_=nm_phs_md_sm";
 	
 	final int NUMBER = 50;
+	
+	// create array to store json data
+	JsonArray data = new JsonArray();
+	
 	Gson gs = new GsonBuilder().setPrettyPrinting().create();
 	public CrawlCelebs() {
 		
@@ -53,13 +57,12 @@ public class CrawlCelebs {
 		//1. make directory
 		make_dir(SAVE_DIR);
 		
-		// create array to store json data
-		JsonArray data = new JsonArray();
+		int rank = start;
 		
 		try {
 			//1. connect url
-			URL url = new URL(CELEB_LIST + start);
-			Document doc = Jsoup.connect(url.toString()).get();
+			String celeb_list = CELEB_LIST + start;
+			Document doc = Jsoup.connect(celeb_list).get();
 			
 //			System.out.println(doc);
 			//2. parse celebs
@@ -71,7 +74,12 @@ public class CrawlCelebs {
 				String celeb_url = BASE_URL + "/name/" + celeb_id;
 				String celeb_poster = parsePoster(celeb.select("img[src]").attr("src"));
 				// create json object to store celeb's information
+				
+				
+				String celeb_rank = "" + rank;
+				
 				JsonObject json_celeb = new JsonObject();
+				json_celeb.addProperty("rank", celeb_rank);
 				json_celeb.addProperty("name", celeb_name);
 				json_celeb.addProperty("url", celeb_url);
 				json_celeb.addProperty("id", celeb_id);
@@ -82,7 +90,7 @@ public class CrawlCelebs {
 				
 				//wait 0,1s 
 				Thread.sleep(100);
-				
+				rank ++;
 				data.add(json_celeb);
 			}
 
@@ -167,7 +175,7 @@ public class CrawlCelebs {
 	public void celeb_detail() {
 		JsonArray data = null;
 		data = readFile(FILE_SAVED);
-		
+		int ind = 1;
 		for(Object obj : data) {
 			JsonObject jsonCeleb = (JsonObject) obj;
 			 
@@ -190,8 +198,17 @@ public class CrawlCelebs {
 			//file json
 			String name_file = dir_celeb + "/" + jsonCeleb.get("id").getAsString() + ".json";
 			
+			System.out.println(ind);
+			ind++;
 			//write movie detail
 			writeFile(name_file, newJsonCeleb);
+			
+			//wait 0,1s 
+			try {
+				Thread.sleep(100);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
 		}
 	}
 	

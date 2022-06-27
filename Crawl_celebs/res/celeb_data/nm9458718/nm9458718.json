@@ -1,0 +1,38 @@
+{
+  "info": {
+    "jobs": [
+      "actress",
+      "writer"
+    ],
+    "avatar": "https://m.media-amazon.com//images/M/MV5BMWQ1MzIwN2EtZTdkOS00YzIzLTgzYjktMGI0NWJjYzUyZWE3XkEyXkFqcGdeQXVyODcyOTMxMTc@.jpg",
+    "date": "1994-2-6"
+  },
+  "photo": {
+    "image 1": "https://m.media-amazon.com//images/M/MV5BM2IyZGU5ODUtZDdiOS00NmRjLWJjMDAtZGYyMGFmMDdiNmQ0XkEyXkFqcGdeQXVyODcyOTMxMTc@.jpg",
+    "image 2": "https://m.media-amazon.com//images/M/MV5BYTYwNjI2NGUtYjY5Mi00YjZlLWJjMWQtMTExZWZhYTlkNDliXkEyXkFqcGdeQXVyMTEyMjM2NDc2.jpg",
+    "image 3": "https://m.media-amazon.com//images/M/MV5BNzUzNGZmMDgtNDI2Zi00ZjFiLWE0YWUtZTk0NTc1ZTFlMTJhXkEyXkFqcGdeQXVyMTEyMjM2NDc2.jpg",
+    "image 4": "https://m.media-amazon.com//images/M/MV5BYjQyY2Y4YzEtZjM1MC00YjFiLThmZjctNTExOTE3ZDFiMjEyXkEyXkFqcGdeQXVyMTEyMjM2NDc2.jpg",
+    "image 5": "https://m.media-amazon.com//images/M/MV5BZWE2NWNiMmQtNmVhYi00MDdlLTlkMGEtMDlmYzkwZGM4ODY3XkEyXkFqcGdeQXVyMDM2NDM2MQ@@.jpg",
+    "image 6": "https://m.media-amazon.com//images/M/MV5BMGIxM2UwN2EtODQ3Zi00ZTRlLTg2NDUtNWE3MDRhMjU2YjQ5XkEyXkFqcGdeQXVyMDM2NDM2MQ@@.jpg",
+    "image 7": "https://m.media-amazon.com//images/M/MV5BMWNkMGFiNjUtM2Q0Yy00ODIzLWFmNzEtYzEwZDVkOGMzYzI3XkEyXkFqcGdeQXVyODcyOTMxMTc@.jpg",
+    "image 8": "https://m.media-amazon.com//images/M/MV5BMjg4OWM1MDgtZmM0ZS00ZTdkLWI2NmUtYmJkNTNlYzRkNWM1XkEyXkFqcGdeQXVyODcyOTMxMTc@.jpg",
+    "image 9": "https://m.media-amazon.com//images/M/MV5BNTJjNWQ4MDEtMDM5NC00YThhLWE1NGYtNDVjZjI4NzFkY2M2XkEyXkFqcGdeQXVyODcyOTMxMTc@.jpg",
+    "image 10": "https://m.media-amazon.com//images/M/MV5BNjYzN2NhZDMtZGE3Yi00YjVlLTgwOWUtYWIyM2IzMjU0NmJlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@.jpg",
+    "image 11": "https://m.media-amazon.com//images/M/MV5BZWM4ZDI5OTAtODVmYS00ZDJjLWE4NTMtMDg1OTc1ZjNiYzZmXkEyXkFqcGdeQXVyMTEyMjM2NDc2.jpg",
+    "image 12": "https://m.media-amazon.com//images/M/MV5BYjU1YjNmMjgtN2MwNC00YmRkLTlhOTUtZmE4ZTc4MTI0YWUzXkEyXkFqcGdeQXVyMTEyMjM2NDc2.jpg",
+    "image 13": "https://m.media-amazon.com//images/M/MV5BMGU0MDE2OTMtZGViYS00OTNjLTgyZTMtMTc5MmQ5ZmRkOWViXkEyXkFqcGdeQXVyMTEyMjM2NDc2.jpg",
+    "image 14": "https://m.media-amazon.com//images/M/MV5BNDc5YjE0NjEtODkyYS00MWI5LTg2YjQtY2EyNTIzN2M0NjMxXkEyXkFqcGdeQXVyMTEyMjM2NDc2.jpg",
+    "image 15": "https://m.media-amazon.com//images/M/MV5BYjQ1YzAyZDEtOGNhZi00YmU4LWExOGUtZTBhZjcwNTUwMDU0XkEyXkFqcGdeQXVyMTEyMjM2NDc2.jpg",
+    "image 16": "https://m.media-amazon.com//images/M/MV5BNGRiYjNlYzktYjFkMC00YzBkLThkYzgtOTlhMzdmYmZlZWYzXkEyXkFqcGdeQXVyMTEyMjM2NDc2.jpg",
+    "image 17": "https://m.media-amazon.com//images/M/MV5BYTFlYjlmZGUtZjA4NS00YjIwLTkzNzQtNTlmMDk1YjBjYjAxXkEyXkFqcGdeQXVyMTEyMjM2NDc2.jpg",
+    "image 18": "https://m.media-amazon.com//images/M/MV5BMjg5N2E5NmUtYzY1OS00NGI1LTljOTEtMmUxNWJkMWNmNGU0XkEyXkFqcGdeQXVyMTEyMjM2NDc2.jpg",
+    "image 19": "https://m.media-amazon.com//images/M/MV5BMmViNDE0NTEtNjE3NC00NjA3LTg0NzUtYjczODFlZjUzNzRhXkEyXkFqcGdeQXVyMTkxNjUyNQ@@.jpg",
+    "image 20": "https://m.media-amazon.com//images/M/MV5BZGY4MDNhZWYtMTc0OC00MDU5LWE5ZDctNzAwZjAwYTJkM2E2XkEyXkFqcGdeQXVyMDM2NDM2MQ@@.jpg",
+    "image 21": "https://m.media-amazon.com//images/M/MV5BNGFkM2U4NTYtZmE5Yy00MzFiLWEyNjgtMTgyY2Q1NDczMmUwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@.jpg",
+    "image 22": "https://m.media-amazon.com//images/M/MV5BZDZhMGU3MWQtNGQwMi00YWY0LWI2ZmQtYjdhNTYzNDRiMDUyXkEyXkFqcGdeQXVyMDM2NDM2MQ@@.jpg",
+    "image 23": "https://m.media-amazon.com//images/M/MV5BMGVmNzcyZTYtMDQ2Mi00NjYyLWI3YzktZTI4NWRiNDZiNjdiXkEyXkFqcGdeQXVyMTkxNjUyNQ@@.jpg",
+    "image 24": "https://m.media-amazon.com//images/M/MV5BMTYwYWJiOGUtYmExNy00ZTdiLThiZjYtZWNjZmU5YWY1ZmMxXkEyXkFqcGdeQXVyNzY1ODU1OTk@.jpg",
+    "image 25": "https://m.media-amazon.com//images/M/MV5BNWZlZDYzYzctOTg0NC00OWUyLWI3NzgtMWViOTQ0MWIyNWJhXkEyXkFqcGdeQXVyMTM1MTE1NDMx.jpg",
+    "image 26": "https://m.media-amazon.com//images/M/MV5BMWQ1MzIwN2EtZTdkOS00YzIzLTgzYjktMGI0NWJjYzUyZWE3XkEyXkFqcGdeQXVyODcyOTMxMTc@.jpg"
+  }
+}
