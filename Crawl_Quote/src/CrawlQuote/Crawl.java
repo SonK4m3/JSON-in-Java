@@ -11,6 +11,8 @@ public class Crawl {
 	
 	String BASE_URL = null;
 	String NAME_FILE = null;
+	String URLS = null;
+	String SAVE_DIR = null;
 	Gson gs = new GsonBuilder().setPrettyPrinting().create();
 	MyFile myFile = new MyFile();
 	JsonArray datas = new JsonArray();

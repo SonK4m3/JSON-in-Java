@@ -21,20 +21,19 @@ public class CrawlQuote extends Crawl{
 	public CrawlQuote(){	
 		BASE_URL = "https://www.bartleby.com";
 		NAME_FILE = "bartleby";
-		
+		SAVE_DIR = "res/" + NAME_FILE;
 	}
 	
 	public void crawl() {
 		
-		String url = BASE_URL + "/quotations/";
-		String save_dir = "res/" + NAME_FILE;
+		URLS = BASE_URL + "/quotations/";
 		
-		myFile.make_dir(save_dir);
+		myFile.make_dir(SAVE_DIR);
 		
-		String save_file = save_dir + "/" + NAME_FILE + ".json";
+		String save_file = SAVE_DIR + "/" + NAME_FILE + ".json";
 		
 		try {
-			Document doc = Jsoup.connect(url).get();
+			Document doc = Jsoup.connect(URLS).get();
 			Elements links = doc.select("dl").select("dt").select("a[href]");
 			for(Element link : links) {
 				String quote_url = BASE_URL + link.attr("href");

@@ -42,7 +42,7 @@ public class MyFile {
 	public void writeFile(String path, JsonArray datas) {
 		try {
 			FileWriter file = new FileWriter(path);
-			String jsonString = gs.toJson(datas);
+			String jsonString = gs.toJson(datas).toString();
 			file.write(jsonString);
 			file.close();
 			
@@ -77,22 +77,25 @@ public class MyFile {
 	}
 	
 	public String unicodeToChar(String text) {
-		text.replace("\u00e0", "à");
-		text.replace("\u00e4", "ä"); 
-		text.replace("\u00e2", "â");
-		text.replace("\u00e7", "ç");
-		text.replace("\u00e8", "è");
-		text.replace("\u00e9", "é");
-		text.replace("\u00ea", "ê");
-		text.replace("\u00eb", "ë");
-		text.replace("\u00ee", "î");
-		text.replace("\u00ef", "ï");
-		text.replace("\u00f4", "ô");
-		text.replace("\u00f6", "ö");
-		text.replace("\u00f9", "ù");
-		text.replace("\u00fb", "û");
-		text.replace("\u00fc", "ü");
+		String tmp = text;
 		
-		return text;
+		tmp.replace("\u00e0", "à");
+		tmp.replace("\u00e4", "ä"); 
+		tmp.replace("\u00e2", "â");
+		tmp.replace("\u00e7", "ç");
+		tmp.replace("\u00e8", "è");
+		tmp.replace("\u00e9", "é");
+		tmp.replace("\u00ea", "ê");
+		tmp.replace("\u00eb", "ë");
+		tmp.replace("\u00ee", "î");
+		tmp.replace("\u00ef", "ï");
+		tmp.replace("\u00f4", "ô");
+		tmp.replace("\u00f6", "ö");
+		tmp.replace("\u00f9", "ù");
+		tmp.replace("\u00fb", "û");
+		tmp.replace("\u00fc", "ü");
+		tmp.replace("\u0027", "'");
+		
+		return tmp;
 	}
 }
