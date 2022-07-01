@@ -10,7 +10,10 @@ public class Main {
 
 		//is crawling
 		Crawl crawlQuoteInGoodreads = new CrawlQuoteInGoodreads();
-		crawlQuoteInGoodreads.crawl();
+//		crawlQuoteInGoodreads.crawl();
+		
+		Crawl crawlQuoteFromParade = new CrawlQuoteFromParade();
+		crawlQuoteFromParade.crawl();
 	}
 
 }

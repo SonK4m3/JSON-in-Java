@@ -1,0 +1,612 @@
+[
+  {
+    "topic": "Age",
+    "url": "https://www.brainyquote.com/topics/age-quotes",
+    "dir": "res/BrainyQuote/Age"
+  },
+  {
+    "topic": "Alone",
+    "url": "https://www.brainyquote.com/topics/alone-quotes",
+    "dir": "res/BrainyQuote/Alone"
+  },
+  {
+    "topic": "Amazing",
+    "url": "https://www.brainyquote.com/topics/amazing-quotes",
+    "dir": "res/BrainyQuote/Amazing"
+  },
+  {
+    "topic": "Anger",
+    "url": "https://www.brainyquote.com/topics/anger-quotes",
+    "dir": "res/BrainyQuote/Anger"
+  },
+  {
+    "topic": "Anniversary",
+    "url": "https://www.brainyquote.com/topics/anniversary-quotes",
+    "dir": "res/BrainyQuote/Anniversary"
+  },
+  {
+    "topic": "Architecture",
+    "url": "https://www.brainyquote.com/topics/architecture-quotes",
+    "dir": "res/BrainyQuote/Architecture"
+  },
+  {
+    "topic": "Art",
+    "url": "https://www.brainyquote.com/topics/art-quotes",
+    "dir": "res/BrainyQuote/Art"
+  },
+  {
+    "topic": "Attitude",
+    "url": "https://www.brainyquote.com/topics/attitude-quotes",
+    "dir": "res/BrainyQuote/Attitude"
+  },
+  {
+    "topic": "Beauty",
+    "url": "https://www.brainyquote.com/topics/beauty-quotes",
+    "dir": "res/BrainyQuote/Beauty"
+  },
+  {
+    "topic": "Best",
+    "url": "https://www.brainyquote.com/topics/best-quotes",
+    "dir": "res/BrainyQuote/Best"
+  },
+  {
+    "topic": "Birthday",
+    "url": "https://www.brainyquote.com/topics/birthday-quotes",
+    "dir": "res/BrainyQuote/Birthday"
+  },
+  {
+    "topic": "Brainy",
+    "url": "https://www.brainyquote.com/topics/brainy-quotes",
+    "dir": "res/BrainyQuote/Brainy"
+  },
+  {
+    "topic": "Business",
+    "url": "https://www.brainyquote.com/topics/business-quotes",
+    "dir": "res/BrainyQuote/Business"
+  },
+  {
+    "topic": "Car",
+    "url": "https://www.brainyquote.com/topics/car-quotes",
+    "dir": "res/BrainyQuote/Car"
+  },
+  {
+    "topic": "Chance",
+    "url": "https://www.brainyquote.com/topics/chance-quotes",
+    "dir": "res/BrainyQuote/Chance"
+  },
+  {
+    "topic": "Change",
+    "url": "https://www.brainyquote.com/topics/change-quotes",
+    "dir": "res/BrainyQuote/Change"
+  },
+  {
+    "topic": "Christmas",
+    "url": "https://www.brainyquote.com/topics/christmas-quotes",
+    "dir": "res/BrainyQuote/Christmas"
+  },
+  {
+    "topic": "Communication",
+    "url": "https://www.brainyquote.com/topics/communication-quotes",
+    "dir": "res/BrainyQuote/Communication"
+  },
+  {
+    "topic": "Computers",
+    "url": "https://www.brainyquote.com/topics/computers-quotes",
+    "dir": "res/BrainyQuote/Computers"
+  },
+  {
+    "topic": "Cool",
+    "url": "https://www.brainyquote.com/topics/cool-quotes",
+    "dir": "res/BrainyQuote/Cool"
+  },
+  {
+    "topic": "Courage",
+    "url": "https://www.brainyquote.com/topics/courage-quotes",
+    "dir": "res/BrainyQuote/Courage"
+  },
+  {
+    "topic": "Dad",
+    "url": "https://www.brainyquote.com/topics/dad-quotes",
+    "dir": "res/BrainyQuote/Dad"
+  },
+  {
+    "topic": "Dating",
+    "url": "https://www.brainyquote.com/topics/dating-quotes",
+    "dir": "res/BrainyQuote/Dating"
+  },
+  {
+    "topic": "Death",
+    "url": "https://www.brainyquote.com/topics/death-quotes",
+    "dir": "res/BrainyQuote/Death"
+  },
+  {
+    "topic": "Design",
+    "url": "https://www.brainyquote.com/topics/design-quotes",
+    "dir": "res/BrainyQuote/Design"
+  },
+  {
+    "topic": "Diet",
+    "url": "https://www.brainyquote.com/topics/diet-quotes",
+    "dir": "res/BrainyQuote/Diet"
+  },
+  {
+    "topic": "Dreams",
+    "url": "https://www.brainyquote.com/topics/dreams-quotes",
+    "dir": "res/BrainyQuote/Dreams"
+  },
+  {
+    "topic": "Easter",
+    "url": "https://www.brainyquote.com/topics/easter-quotes",
+    "dir": "res/BrainyQuote/Easter"
+  },
+  {
+    "topic": "Education",
+    "url": "https://www.brainyquote.com/topics/education-quotes",
+    "dir": "res/BrainyQuote/Education"
+  },
+  {
+    "topic": "Environmental",
+    "url": "https://www.brainyquote.com/topics/environmental-quotes",
+    "dir": "res/BrainyQuote/Environmental"
+  },
+  {
+    "topic": "Equality",
+    "url": "https://www.brainyquote.com/topics/equality-quotes",
+    "dir": "res/BrainyQuote/Equality"
+  },
+  {
+    "topic": "Experience",
+    "url": "https://www.brainyquote.com/topics/experience-quotes",
+    "dir": "res/BrainyQuote/Experience"
+  },
+  {
+    "topic": "Failure",
+    "url": "https://www.brainyquote.com/topics/failure-quotes",
+    "dir": "res/BrainyQuote/Failure"
+  },
+  {
+    "topic": "Faith",
+    "url": "https://www.brainyquote.com/topics/faith-quotes",
+    "dir": "res/BrainyQuote/Faith"
+  },
+  {
+    "topic": "Family",
+    "url": "https://www.brainyquote.com/topics/family-quotes",
+    "dir": "res/BrainyQuote/Family"
+  },
+  {
+    "topic": "Famous",
+    "url": "https://www.brainyquote.com/topics/famous-quotes",
+    "dir": "res/BrainyQuote/Famous"
+  },
+  {
+    "topic": "Father’s Day",
+    "url": "https://www.brainyquote.com/topics/fathers-day-quotes",
+    "dir": "res/BrainyQuote/Father’s Day"
+  },
+  {
+    "topic": "Fear",
+    "url": "https://www.brainyquote.com/topics/fear-quotes",
+    "dir": "res/BrainyQuote/Fear"
+  },
+  {
+    "topic": "Finance",
+    "url": "https://www.brainyquote.com/topics/finance-quotes",
+    "dir": "res/BrainyQuote/Finance"
+  },
+  {
+    "topic": "Fitness",
+    "url": "https://www.brainyquote.com/topics/fitness-quotes",
+    "dir": "res/BrainyQuote/Fitness"
+  },
+  {
+    "topic": "Food",
+    "url": "https://www.brainyquote.com/topics/food-quotes",
+    "dir": "res/BrainyQuote/Food"
+  },
+  {
+    "topic": "Forgiveness",
+    "url": "https://www.brainyquote.com/topics/forgiveness-quotes",
+    "dir": "res/BrainyQuote/Forgiveness"
+  },
+  {
+    "topic": "Freedom",
+    "url": "https://www.brainyquote.com/topics/freedom-quotes",
+    "dir": "res/BrainyQuote/Freedom"
+  },
+  {
+    "topic": "Friendship",
+    "url": "https://www.brainyquote.com/topics/friendship-quotes",
+    "dir": "res/BrainyQuote/Friendship"
+  },
+  {
+    "topic": "Funny",
+    "url": "https://www.brainyquote.com/topics/funny-quotes",
+    "dir": "res/BrainyQuote/Funny"
+  },
+  {
+    "topic": "Future",
+    "url": "https://www.brainyquote.com/topics/future-quotes",
+    "dir": "res/BrainyQuote/Future"
+  },
+  {
+    "topic": "Gardening",
+    "url": "https://www.brainyquote.com/topics/gardening-quotes",
+    "dir": "res/BrainyQuote/Gardening"
+  },
+  {
+    "topic": "God",
+    "url": "https://www.brainyquote.com/topics/god-quotes",
+    "dir": "res/BrainyQuote/God"
+  },
+  {
+    "topic": "Good",
+    "url": "https://www.brainyquote.com/topics/good-quotes",
+    "dir": "res/BrainyQuote/Good"
+  },
+  {
+    "topic": "Government",
+    "url": "https://www.brainyquote.com/topics/government-quotes",
+    "dir": "res/BrainyQuote/Government"
+  },
+  {
+    "topic": "Graduation",
+    "url": "https://www.brainyquote.com/topics/graduation-quotes",
+    "dir": "res/BrainyQuote/Graduation"
+  },
+  {
+    "topic": "Great",
+    "url": "https://www.brainyquote.com/topics/great-quotes",
+    "dir": "res/BrainyQuote/Great"
+  },
+  {
+    "topic": "Happiness",
+    "url": "https://www.brainyquote.com/topics/happiness-quotes",
+    "dir": "res/BrainyQuote/Happiness"
+  },
+  {
+    "topic": "Health",
+    "url": "https://www.brainyquote.com/topics/health-quotes",
+    "dir": "res/BrainyQuote/Health"
+  },
+  {
+    "topic": "History",
+    "url": "https://www.brainyquote.com/topics/history-quotes",
+    "dir": "res/BrainyQuote/History"
+  },
+  {
+    "topic": "Home",
+    "url": "https://www.brainyquote.com/topics/home-quotes",
+    "dir": "res/BrainyQuote/Home"
+  },
+  {
+    "topic": "Hope",
+    "url": "https://www.brainyquote.com/topics/hope-quotes",
+    "dir": "res/BrainyQuote/Hope"
+  },
+  {
+    "topic": "Humor",
+    "url": "https://www.brainyquote.com/topics/humor-quotes",
+    "dir": "res/BrainyQuote/Humor"
+  },
+  {
+    "topic": "Imagination",
+    "url": "https://www.brainyquote.com/topics/imagination-quotes",
+    "dir": "res/BrainyQuote/Imagination"
+  },
+  {
+    "topic": "Independence",
+    "url": "https://www.brainyquote.com/topics/independence-quotes",
+    "dir": "res/BrainyQuote/Independence"
+  },
+  {
+    "topic": "Inspirational",
+    "url": "https://www.brainyquote.com/topics/inspirational-quotes",
+    "dir": "res/BrainyQuote/Inspirational"
+  },
+  {
+    "topic": "Intelligence",
+    "url": "https://www.brainyquote.com/topics/intelligence-quotes",
+    "dir": "res/BrainyQuote/Intelligence"
+  },
+  {
+    "topic": "Jealousy",
+    "url": "https://www.brainyquote.com/topics/jealousy-quotes",
+    "dir": "res/BrainyQuote/Jealousy"
+  },
+  {
+    "topic": "Knowledge",
+    "url": "https://www.brainyquote.com/topics/knowledge-quotes",
+    "dir": "res/BrainyQuote/Knowledge"
+  },
+  {
+    "topic": "Leadership",
+    "url": "https://www.brainyquote.com/topics/leadership-quotes",
+    "dir": "res/BrainyQuote/Leadership"
+  },
+  {
+    "topic": "Learning",
+    "url": "https://www.brainyquote.com/topics/learning-quotes",
+    "dir": "res/BrainyQuote/Learning"
+  },
+  {
+    "topic": "Legal",
+    "url": "https://www.brainyquote.com/topics/legal-quotes",
+    "dir": "res/BrainyQuote/Legal"
+  },
+  {
+    "topic": "Life",
+    "url": "https://www.brainyquote.com/topics/life-quotes",
+    "dir": "res/BrainyQuote/Life"
+  },
+  {
+    "topic": "Love",
+    "url": "https://www.brainyquote.com/topics/love-quotes",
+    "dir": "res/BrainyQuote/Love"
+  },
+  {
+    "topic": "Marriage",
+    "url": "https://www.brainyquote.com/topics/marriage-quotes",
+    "dir": "res/BrainyQuote/Marriage"
+  },
+  {
+    "topic": "Medical",
+    "url": "https://www.brainyquote.com/topics/medical-quotes",
+    "dir": "res/BrainyQuote/Medical"
+  },
+  {
+    "topic": "Memorial Day",
+    "url": "https://www.brainyquote.com/topics/memorial-day-quotes",
+    "dir": "res/BrainyQuote/Memorial Day"
+  },
+  {
+    "topic": "Men",
+    "url": "https://www.brainyquote.com/topics/men-quotes",
+    "dir": "res/BrainyQuote/Men"
+  },
+  {
+    "topic": "Mom",
+    "url": "https://www.brainyquote.com/topics/mom-quotes",
+    "dir": "res/BrainyQuote/Mom"
+  },
+  {
+    "topic": "Money",
+    "url": "https://www.brainyquote.com/topics/money-quotes",
+    "dir": "res/BrainyQuote/Money"
+  },
+  {
+    "topic": "Morning",
+    "url": "https://www.brainyquote.com/topics/morning-quotes",
+    "dir": "res/BrainyQuote/Morning"
+  },
+  {
+    "topic": "Mother’s Day",
+    "url": "https://www.brainyquote.com/topics/mothers-day-quotes",
+    "dir": "res/BrainyQuote/Mother’s Day"
+  },
+  {
+    "topic": "Motivational",
+    "url": "https://www.brainyquote.com/topics/motivational-quotes",
+    "dir": "res/BrainyQuote/Motivational"
+  },
+  {
+    "topic": "Movies",
+    "url": "https://www.brainyquote.com/topics/movies-quotes",
+    "dir": "res/BrainyQuote/Movies"
+  },
+  {
+    "topic": "Moving On",
+    "url": "https://www.brainyquote.com/topics/moving-on-quotes",
+    "dir": "res/BrainyQuote/Moving On"
+  },
+  {
+    "topic": "Music",
+    "url": "https://www.brainyquote.com/topics/music-quotes",
+    "dir": "res/BrainyQuote/Music"
+  },
+  {
+    "topic": "Nature",
+    "url": "https://www.brainyquote.com/topics/nature-quotes",
+    "dir": "res/BrainyQuote/Nature"
+  },
+  {
+    "topic": "New Year’s",
+    "url": "https://www.brainyquote.com/topics/new-years-quotes",
+    "dir": "res/BrainyQuote/New Year’s"
+  },
+  {
+    "topic": "Parenting",
+    "url": "https://www.brainyquote.com/topics/parenting-quotes",
+    "dir": "res/BrainyQuote/Parenting"
+  },
+  {
+    "topic": "Patience",
+    "url": "https://www.brainyquote.com/topics/patience-quotes",
+    "dir": "res/BrainyQuote/Patience"
+  },
+  {
+    "topic": "Patriotism",
+    "url": "https://www.brainyquote.com/topics/patriotism-quotes",
+    "dir": "res/BrainyQuote/Patriotism"
+  },
+  {
+    "topic": "Peace",
+    "url": "https://www.brainyquote.com/topics/peace-quotes",
+    "dir": "res/BrainyQuote/Peace"
+  },
+  {
+    "topic": "Pet",
+    "url": "https://www.brainyquote.com/topics/pet-quotes",
+    "dir": "res/BrainyQuote/Pet"
+  },
+  {
+    "topic": "Poetry",
+    "url": "https://www.brainyquote.com/topics/poetry-quotes",
+    "dir": "res/BrainyQuote/Poetry"
+  },
+  {
+    "topic": "Politics",
+    "url": "https://www.brainyquote.com/topics/politics-quotes",
+    "dir": "res/BrainyQuote/Politics"
+  },
+  {
+    "topic": "Positive",
+    "url": "https://www.brainyquote.com/topics/positive-quotes",
+    "dir": "res/BrainyQuote/Positive"
+  },
+  {
+    "topic": "Power",
+    "url": "https://www.brainyquote.com/topics/power-quotes",
+    "dir": "res/BrainyQuote/Power"
+  },
+  {
+    "topic": "Relationship",
+    "url": "https://www.brainyquote.com/topics/relationship-quotes",
+    "dir": "res/BrainyQuote/Relationship"
+  },
+  {
+    "topic": "Religion",
+    "url": "https://www.brainyquote.com/topics/religion-quotes",
+    "dir": "res/BrainyQuote/Religion"
+  },
+  {
+    "topic": "Respect",
+    "url": "https://www.brainyquote.com/topics/respect-quotes",
+    "dir": "res/BrainyQuote/Respect"
+  },
+  {
+    "topic": "Romantic",
+    "url": "https://www.brainyquote.com/topics/romantic-quotes",
+    "dir": "res/BrainyQuote/Romantic"
+  },
+  {
+    "topic": "Sad",
+    "url": "https://www.brainyquote.com/topics/sad-quotes",
+    "dir": "res/BrainyQuote/Sad"
+  },
+  {
+    "topic": "Saint Patrick’s Day",
+    "url": "https://www.brainyquote.com/topics/saint-patricks-day-quotes",
+    "dir": "res/BrainyQuote/Saint Patrick’s Day"
+  },
+  {
+    "topic": "Science",
+    "url": "https://www.brainyquote.com/topics/science-quotes",
+    "dir": "res/BrainyQuote/Science"
+  },
+  {
+    "topic": "Smile",
+    "url": "https://www.brainyquote.com/topics/smile-quotes",
+    "dir": "res/BrainyQuote/Smile"
+  },
+  {
+    "topic": "Society",
+    "url": "https://www.brainyquote.com/topics/society-quotes",
+    "dir": "res/BrainyQuote/Society"
+  },
+  {
+    "topic": "Space",
+    "url": "https://www.brainyquote.com/topics/space-quotes",
+    "dir": "res/BrainyQuote/Space"
+  },
+  {
+    "topic": "Sports",
+    "url": "https://www.brainyquote.com/topics/sports-quotes",
+    "dir": "res/BrainyQuote/Sports"
+  },
+  {
+    "topic": "Strength",
+    "url": "https://www.brainyquote.com/topics/strength-quotes",
+    "dir": "res/BrainyQuote/Strength"
+  },
+  {
+    "topic": "Success",
+    "url": "https://www.brainyquote.com/topics/success-quotes",
+    "dir": "res/BrainyQuote/Success"
+  },
+  {
+    "topic": "Sympathy",
+    "url": "https://www.brainyquote.com/topics/sympathy-quotes",
+    "dir": "res/BrainyQuote/Sympathy"
+  },
+  {
+    "topic": "Teacher",
+    "url": "https://www.brainyquote.com/topics/teacher-quotes",
+    "dir": "res/BrainyQuote/Teacher"
+  },
+  {
+    "topic": "Technology",
+    "url": "https://www.brainyquote.com/topics/technology-quotes",
+    "dir": "res/BrainyQuote/Technology"
+  },
+  {
+    "topic": "Teen",
+    "url": "https://www.brainyquote.com/topics/teen-quotes",
+    "dir": "res/BrainyQuote/Teen"
+  },
+  {
+    "topic": "Thankful",
+    "url": "https://www.brainyquote.com/topics/thankful-quotes",
+    "dir": "res/BrainyQuote/Thankful"
+  },
+  {
+    "topic": "Thanksgiving",
+    "url": "https://www.brainyquote.com/topics/thanksgiving-quotes",
+    "dir": "res/BrainyQuote/Thanksgiving"
+  },
+  {
+    "topic": "Time",
+    "url": "https://www.brainyquote.com/topics/time-quotes",
+    "dir": "res/BrainyQuote/Time"
+  },
+  {
+    "topic": "Travel",
+    "url": "https://www.brainyquote.com/topics/travel-quotes",
+    "dir": "res/BrainyQuote/Travel"
+  },
+  {
+    "topic": "Trust",
+    "url": "https://www.brainyquote.com/topics/trust-quotes",
+    "dir": "res/BrainyQuote/Trust"
+  },
+  {
+    "topic": "Truth",
+    "url": "https://www.brainyquote.com/topics/truth-quotes",
+    "dir": "res/BrainyQuote/Truth"
+  },
+  {
+    "topic": "Valentine’s Day",
+    "url": "https://www.brainyquote.com/topics/valentines-day-quotes",
+    "dir": "res/BrainyQuote/Valentine’s Day"
+  },
+  {
+    "topic": "Veterans Day",
+    "url": "https://www.brainyquote.com/topics/veterans-day-quotes",
+    "dir": "res/BrainyQuote/Veterans Day"
+  },
+  {
+    "topic": "War",
+    "url": "https://www.brainyquote.com/topics/war-quotes",
+    "dir": "res/BrainyQuote/War"
+  },
+  {
+    "topic": "Wedding",
+    "url": "https://www.brainyquote.com/topics/wedding-quotes",
+    "dir": "res/BrainyQuote/Wedding"
+  },
+  {
+    "topic": "Wisdom",
+    "url": "https://www.brainyquote.com/topics/wisdom-quotes",
+    "dir": "res/BrainyQuote/Wisdom"
+  },
+  {
+    "topic": "Women",
+    "url": "https://www.brainyquote.com/topics/women-quotes",
+    "dir": "res/BrainyQuote/Women"
+  },
+  {
+    "topic": "Work",
+    "url": "https://www.brainyquote.com/topics/work-quotes",
+    "dir": "res/BrainyQuote/Work"
+  }
+]
