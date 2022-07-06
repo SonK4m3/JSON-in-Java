@@ -7,8 +7,8 @@ public class Main {
 	public static void main(String[] args) {
 		CrawlQuote crawlQuote = new CrawlQuote();
 //		crawlQuote.crawl_topic();
-//		crawlQuote.crawl_quote_detail();
-		crawlQuote.debug();
+//		crawlQuote.crawl_quote();
+//		crawlQuote.debug();
 	}
 
 }

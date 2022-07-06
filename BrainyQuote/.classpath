@@ -6,10 +6,10 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/Java/BrainyQuote/lib/gson-2.8.2.jar"/>
-	<classpathentry kind="lib" path="D:/Java/BrainyQuote/lib/jackson-annotations-2.9.6.jar"/>
-	<classpathentry kind="lib" path="D:/Java/BrainyQuote/lib/jackson-core-2.9.6.jar"/>
-	<classpathentry kind="lib" path="D:/Java/BrainyQuote/lib/jackson-databind-2.9.6.jar"/>
-	<classpathentry kind="lib" path="D:/Java/BrainyQuote/lib/jsoup-1.15.1.jar"/>
+	<classpathentry kind="lib" path="/home/kyhoolee/work/project/java/BrainyQuote/lib/gson-2.8.2.jar"/>
+	<classpathentry kind="lib" path="/home/kyhoolee/work/project/java/BrainyQuote/lib/jackson-annotations-2.9.6.jar"/>
+	<classpathentry kind="lib" path="/home/kyhoolee/work/project/java/BrainyQuote/lib/jackson-core-2.9.6.jar"/>
+	<classpathentry kind="lib" path="/home/kyhoolee/work/project/java/BrainyQuote/lib/jackson-databind-2.9.6.jar"/>
+	<classpathentry kind="lib" path="/home/kyhoolee/work/project/java/BrainyQuote/lib/jsoup-1.15.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
