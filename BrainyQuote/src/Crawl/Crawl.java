@@ -29,6 +29,7 @@ public class Crawl {
 	
 	
 	public void makeDir(String path) {
+		//make directory
 		File dir = new File(path);
 		if(!dir.exists()) {
 			dir.mkdirs();
@@ -36,6 +37,9 @@ public class Crawl {
 		}
 	}
 	
+	/* 
+	 * write object to json
+	*/
 	public void writeFile(String address, JsonObject data) {
 		try {
 			FileWriter file = new FileWriter(address);
@@ -84,6 +88,9 @@ public class Crawl {
 		}
 	}
 	
+	/*
+	 * read json to object
+	 */
 	public JsonObject readFile(String address, JsonObject jsonObj) {
 		JsonObject newJsonObj = null;
 		try {
@@ -113,21 +120,21 @@ public class Crawl {
 	}
 	
 	public String unicodeToChar(String text) {		
-		text.replace("\u00e0", "à");
-		text.replace("\u00e4", "ä"); 
-		text.replace("\u00e2", "â");
-		text.replace("\u00e7", "ç");
-		text.replace("\u00e8", "è");
-		text.replace("\u00e9", "é");
-		text.replace("\u00ea", "ê");
-		text.replace("\u00eb", "ë");
-		text.replace("\u00ee", "î");
-		text.replace("\u00ef", "ï");
-		text.replace("\u00f4", "ô");
-		text.replace("\u00f6", "ö");
-		text.replace("\u00f9", "ù");
-		text.replace("\u00fb", "û");
-		text.replace("\u00fc", "ü");
+		text.replace("\u00e0", "ï¿½");
+		text.replace("\u00e4", "ï¿½"); 
+		text.replace("\u00e2", "ï¿½");
+		text.replace("\u00e7", "ï¿½");
+		text.replace("\u00e8", "ï¿½");
+		text.replace("\u00e9", "ï¿½");
+		text.replace("\u00ea", "ï¿½");
+		text.replace("\u00eb", "ï¿½");
+		text.replace("\u00ee", "ï¿½");
+		text.replace("\u00ef", "ï¿½");
+		text.replace("\u00f4", "ï¿½");
+		text.replace("\u00f6", "ï¿½");
+		text.replace("\u00f9", "ï¿½");
+		text.replace("\u00fb", "ï¿½");
+		text.replace("\u00fc", "ï¿½");
 		
 		return text;
 	}

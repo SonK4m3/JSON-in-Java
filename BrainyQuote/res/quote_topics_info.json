@@ -180,9 +180,9 @@
     "dir": "res/BrainyQuote/Famous"
   },
   {
-    "topic": "Father’s Day",
+    "topic": "Fatherâ€™s Day",
     "url": "https://www.brainyquote.com/topics/fathers-day-quotes",
-    "dir": "res/BrainyQuote/Father’s Day"
+    "dir": "res/BrainyQuote/Fatherâ€™s Day"
   },
   {
     "topic": "Fear",
@@ -380,9 +380,9 @@
     "dir": "res/BrainyQuote/Morning"
   },
   {
-    "topic": "Mother’s Day",
+    "topic": "Motherâ€™s Day",
     "url": "https://www.brainyquote.com/topics/mothers-day-quotes",
-    "dir": "res/BrainyQuote/Mother’s Day"
+    "dir": "res/BrainyQuote/Motherâ€™s Day"
   },
   {
     "topic": "Motivational",
@@ -410,9 +410,9 @@
     "dir": "res/BrainyQuote/Nature"
   },
   {
-    "topic": "New Year’s",
+    "topic": "New Yearâ€™s",
     "url": "https://www.brainyquote.com/topics/new-years-quotes",
-    "dir": "res/BrainyQuote/New Year’s"
+    "dir": "res/BrainyQuote/New Yearâ€™s"
   },
   {
     "topic": "Parenting",
@@ -485,9 +485,9 @@
     "dir": "res/BrainyQuote/Sad"
   },
   {
-    "topic": "Saint Patrick’s Day",
+    "topic": "Saint Patrickâ€™s Day",
     "url": "https://www.brainyquote.com/topics/saint-patricks-day-quotes",
-    "dir": "res/BrainyQuote/Saint Patrick’s Day"
+    "dir": "res/BrainyQuote/Saint Patrickâ€™s Day"
   },
   {
     "topic": "Science",
@@ -575,9 +575,9 @@
     "dir": "res/BrainyQuote/Truth"
   },
   {
-    "topic": "Valentine’s Day",
+    "topic": "Valentineâ€™s Day",
     "url": "https://www.brainyquote.com/topics/valentines-day-quotes",
-    "dir": "res/BrainyQuote/Valentine’s Day"
+    "dir": "res/BrainyQuote/Valentineâ€™s Day"
   },
   {
     "topic": "Veterans Day",
