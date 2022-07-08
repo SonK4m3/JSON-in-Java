@@ -17,6 +17,7 @@ public class CrawlQuote extends Crawl{
 	String QUOTE_TOPICS;
 	String quote_topics_info;
 	int NUMBER = 5;
+	String useragent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36";
 	
 	public CrawlQuote() {
 		BASE_URL = "https://www.brainyquote.com";
@@ -36,7 +37,9 @@ public class CrawlQuote extends Crawl{
 		
 		try {
 			//1. get html file
-			Document doc = Jsoup.connect(QUOTE_TOPICS).get();
+			Document doc = Jsoup.connect(QUOTE_TOPICS).userAgent(useragent)
+					.ignoreContentType(true)
+					.timeout(5000).get();
 			//2. select tag
 			Elements list_topic = doc.select("div.bqLn").select("span.topicContentName");
 			Elements url_list_topic = doc.select("div.bqLn").select("a[href]");
@@ -66,14 +69,14 @@ public class CrawlQuote extends Crawl{
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
+		//4. write topic to file
 		writeFile(quote_topics_info, data_topics);
 	}
 	
 	@SuppressWarnings("unused")
 	public void debug() {
-		String path = "res/debug.json";
-		crawl_quote_topic("Age Quotes", "https://www.brainyquote.com/topics/age-quotes", 5, path);
+		String path = "res/debug_2.json";
+//		crawl_quote_topic("Age Quotes", "https://www.brainyquote.com/topics/age-quotes", 5, path);
 //		crawl_quote_detail("https://www.brainyquote.com/quotes/mark_twain_103892");
 	}
 	
@@ -83,16 +86,19 @@ public class CrawlQuote extends Crawl{
 		datas = readFile(quote_topics_info, datas);
 		
 		//2. loop to crawl quote from each topic
-		for(int i = 0; i < datas.size(); i++) {
+		for(int i = 14; i < datas.size(); i++) {
 			JsonObject data = (JsonObject) datas.get(i);
 			
 			String url_topic = data.get("url").getAsString();
 			String save_dir = data.get("dir").getAsString();
 			String save_file = save_dir + "/quote_detail.json";
+			String topic = data.get("topic").getAsString();
+			
+			System.out.println(topic);
 			//1. make dir to save quote detail
 			makeDir(save_dir);
 			//2. crawl quote 
-			crawl_quote_topic(data.get("topic").getAsString(),url_topic, NUMBER, save_file);
+			crawl_quote_topic(topic,url_topic, NUMBER, save_file);
 			
 		}
 	
@@ -105,7 +111,9 @@ public class CrawlQuote extends Crawl{
 		for(int i = 1; i <= numberPage; i++) {			
 			try {
 				//1. get html file
-				Document doc = Jsoup.connect(url_page).get();
+				Document doc = Jsoup.connect(url_page).userAgent(useragent)
+						.ignoreContentType(true)
+						.timeout(5000).get();
 				//2. select tag
 				Elements tags = doc.select("div.qbcol-c").select("div.qbcol").select("a[href]");
 				//3. set to check if has same name
@@ -144,15 +152,17 @@ public class CrawlQuote extends Crawl{
 				e.printStackTrace();
 			}
 		}
+		//4. write quote to file
 		writeFile(path, datas);
-		
 	}
 	
 	JsonObject crawl_quote_detail(String url_quote) {
 		JsonObject data = null;
 		try {			
 			data = new JsonObject();
-			Document doc = Jsoup.connect(url_quote).get();
+			Document doc = Jsoup.connect(url_quote).userAgent(useragent)
+					.ignoreContentType(true)
+					.timeout(5000).get();
 			
 			String quote = unicodeToChar(doc.select("p").first().text()).replace("\u0027", "’");
 			String author_name = doc.select("p").last().text().replace("\u0027", "’");
